@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { ArchadiaLogo } from "./Logo3";
+import Logo from "./archadia";
 import { Lato } from "next/font/google";
 const lato = Lato({ weight: "300", subsets: ["latin"] });
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col bg-gradient-to-br from-slate-50 via-white to-slate-100">
+    <section className="relative min-h-screen flex flex-col">
       {/* Architectural wireframe background */}
       {/* <WireframeBg className="text-slate-400 opacity-20" /> */}
 
@@ -15,7 +15,7 @@ export function Hero() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* <Logo size="md" /> */}
           <div className="flex items-center p-4">
-            <ArchadiaLogo className="w-full max-w-[400px] mx-auto" />
+            <Logo/>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a

@@ -17,7 +17,7 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.instagram.com/archadia.interiors?igsh=N2wwa2lyYjJ1N2pv&utm_source=qr"
                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors"
               >
                 <Instagram className="w-5 h-5" />
@@ -109,14 +109,14 @@ export function Footer() {
             <h3 className="text-lg mb-6">Contact</h3>
             <div className="space-y-3 text-slate-400">
               <p>
-                125 Design District
+                Mount Cairo 2/8
                 <br />
-                New York, NY 10001
+                Mokattam, Cairo
               </p>
               <p>
                 Phone:{" "}
                 <a
-                  href="tel:5551234567"
+                  href="tel:+201001405628"
                   className="hover:text-white transition-colors"
                 >
                   (555) 123-4567
@@ -127,7 +127,7 @@ export function Footer() {
                   href="mailto:hello@archadia.design"
                   className="hover:text-white transition-colors"
                 >
-                  hello@archadia.design
+                  info@archadia.design
                 </a>
               </p>
             </div>

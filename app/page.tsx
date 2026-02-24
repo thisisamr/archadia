@@ -7,18 +7,21 @@ import { Hero } from "./components/Hero";
 // import { Testimonials } from "./components/Testimonials";
 import { Contact } from "./components/Contacts";
 import { Footer } from "./components/Footer";
+import Logo from "./components/archadia";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      <Hero />
+    <div className=" min-h-screen flex flex-col justify-center items-center min-w-screen">
+      {/* <Hero /> */}
       {/* <About />
       <ProcessShowcase />
       <Projects />
       <Services />
       <Testimonials />*/}
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
+        <Logo/>
+        <h2 className="tracking-widest text-slate-200"> comming soon</h2>
     </div>
   );
 }
