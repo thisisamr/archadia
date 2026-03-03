@@ -21,7 +21,7 @@ export default function Home() {
       {/* <Contact /> */}
       {/* <Footer /> */}
         <Logo/>
-        <h2 className="tracking-widest text-slate-200"> comming soon</h2>
+        <h2 className="tracking-widest text-slate-200"> coming soon</h2>
     </div>
   );
 }
